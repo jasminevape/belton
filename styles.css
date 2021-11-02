@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font1: 'Amiri', serif;
+    --fontsize: 17px;
+    --color: #666;
+}
+body {
+    font-family: 'Amiri', serif;;
+}
+.numbers, h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald;
+    color: #2b2b2b;
+}
+.bannertop {
+    background: url(http://belton.tommusdemos.wpengine.com/wp-content/uploads/sites/82/2018/04/fullscreen03.jpg) top center;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.bannertop:after {
+    position: absolute;
+    content: '';
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.795));
+    height: 100%;
+    width: 100%;
+
+}
+.bannertop ._3cot{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+.bannertop ._3cot ._1cot{
+    width: 33%;
+}
+.bannertop ._1cot.trai{
+
+    padding: 20px 30px;
+}
+.bannertop ._1cot.trai a{
+    font-size: 20px;
+    color: white;
+}
+.bannertop ._1cot.trai a:hover {
+    color: green;
+}
+.bannertop ._1cot.giua{
+    text-align: center;
+}
+.bannertop ._1cot.giua img{
+    height: 30px;
+    width: 85px;
+    margin-top: 28px;
+}
+.bannertop ._1cot.phai{
+    text-align: right;
+}
+.bannertop ._1cot.phai a{
+    color: white;
+    padding: 28px 30px 20px 0px;
+    font-size: 17px;
+    display: inline-block;
+
+}
+.bannertop .text_banner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 999;
+}
+.bannertop .text_banner .feature_banner {
+    width: 1200px;
+    margin: auto;
+}
+.bannertop .text_banner .fsmall {
+    color: white;
+}
+.bannertop .text_banner h1 {
+    color: white;
+    font-size: 48px;
+    width: 50%;
+}
+/* end CSS top */
+.content   {
+    display: flex;
+    padding: 80px 0;
+    margin: auto;
+    width: 1200px;
+    font-size: var(--fontsize);
+    color: var(--color);
+}
+.content .left {
+    width: 35%;
+}
+.content .left p{
+    font-size: 20px;
+}
+.content .left h2{}
+.content .right {
+    width: 65%;
+    font-size: 20px;
+}
+.content .right p{
+    line-height: 20px;
+    margin-top: 20px;
+}
+.content .right a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var{var(--color)};
+}
+
+/* cái này xài font awesome mà ko được */
+.content .right a:before {
+    content: "\f30b";
+}
